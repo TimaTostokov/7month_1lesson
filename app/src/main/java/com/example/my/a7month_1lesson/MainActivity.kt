@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val intent = Intent(this, AlarmService::class.java)
-        intent.putExtra("duration", 60000L) // Пример: 1 минута
+        intent.putExtra("duration", 60000L)
         this.startService(intent)
     }
 
